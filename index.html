@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,7 +17,7 @@
     <!--Navbar-->
     <div class="columns is-centered">
       <div class="column is-three-quarters">
-        <nav class="navbar is-fixed-top">
+        <div class="navbar" role="navigation" aria-label="main navigation">
           <div class="navbar-brand">
             <a class="navbar-item">
               <img src="ressources/logo/logo.png" alt="logo du site" />
@@ -35,6 +35,7 @@
               <span aria-hidden="true" class="has-text-black-bis"></span>
             </a>
           </div>
+
           <div id="menu-content" class="navbar-menu">
             <div class="navbar-end has-text-centered-touch">
               <a href="#" class="navbar-item has-text-black-bis">Home</a>
@@ -43,147 +44,152 @@
             </div>
           </div>
         </nav>
+      </div>
+
         <div class="container p-6">
           <div class="columns is-multiline is-centered">
             <div class="column is-three-quarters">
-              <!--Title-->
+              
               <h2 class="title has-text-black-bis is-3 has-text-centered">
                 Liste des logements à louer
               </h2>
-              <!-- Search bar-->
-              <div class="column is-12 is-centered">
-                <div class="columns is-mobile is-centered">
-                  <div class="column is-narrow is-7-mobile">
-                    <div class="field">
-                      <div class="control has-icons-left has-icons-right">
-                        <input
-                          type="text"
-                          class="input"
-                          placeholder="Recherche"
-                        />
-                        <span class="icon is-small is-left">
-                          <i class="fas fa-search"></i>
-                        </span>
-                        <span class="icon is-small is-right">
-                          <i class="fas fa-check"></i>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Search Button -->
-                  <div class="column is-narrow">
-                    <div class="button has-background-danger has-text-light">
-                      Recherche
+            </div>
+            <div class="column is-12 is-centered">
+              <div class="columns is-mobile is-centered">
+                <div class="column is-narrow is-7-mobile">
+                   <div class="field">
+                    <div class="control has-icons-left has-icons-right">
+                      <input
+                        type="text"
+                        class="input"
+                        placeholder="Recherche"
+                      />
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-search"></i>
+                      </span>
+                      <span class="icon is-small is-right">
+                        <i class="fas fa-check"></i>
+                      </span>
                     </div>
                   </div>
                 </div>
+                <div class="column is-narrow">
+                  <div class="button has-background-danger has-text-light">
+                      Recherche
+                  </div>
+                </div>
               </div>
-              <div class="column is-12">
+            </div>
+            <div class="column is-12">
                 <p class="has-text-centered has-text-black-bis">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
                   voluptates.
                 </p>
-              </div>
             </div>
           </div>
-        </div>
 
-      <!-- Search Results -->
-      <div class="columns is-multiline is-centered is-mobile">
-        <div class="column is-8-mobile is-4-tablet is-4-desktop">
-          <img
-            src="ressources/rentals-images/rental.jpeg"
-            alt="image location appartement 1"
-          />
-          <p class="is-size-3 has-text-black-bis">Lorem, ipsum.</p>
-          <p class="has-text-black-bis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+
+          <!-- Search Results -->
+          <div class="columns is-multiline is-centered is-mobile">
+            <div class="column is-8-mobile is-4-tablet is-4-desktop">
+              <img
+                src="ressources/rentals-images/rental.jpeg"
+                alt="image location appartement 1"
+              />
+              <p class="is-size-3 has-text-black-bis">Lorem, ipsum.</p>
+              <p class="has-text-black-bis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="column is-8-mobile is-4-tablet is-4-desktop">
+              <img
+                src="ressources/rentals-images/rental2.jpeg"
+                alt="image location appartement 2"
+              />
+              <p class="is-size-3 has-text-black-bis">Lorem, ipsum.</p>
+              <p class="has-text-black-bis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="column is-8-mobile is-4-tablet is-4-desktop">
+              <img
+                src="ressources/rentals-images/rental3.jpeg"
+                alt="image location appartement 3"
+              />
+              <p class="is-size-3 has-text-black-bis">Lorem, ipsum.</p>
+              <p class="has-text-black-bis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="column is-8-mobile is-4-tablet is-4-desktop">
+              <img
+                src="ressources/rentals-images/rental4.jpeg"
+                alt="image location appartement 4"
+              />
+              <p class="is-size-3 has-text-black-bis">Lorem, ipsum.</p>
+              <p class="has-text-black-bis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="column is-8-mobile is-4-tablet is-4-desktop">
+              <img
+                src="ressources/rentals-images/rental5.jpeg"
+                alt="image location appartement 5"
+              />
+              <p class="is-size-3 has-text-black-bis">Lorem, ipsum.</p>
+              <p class="has-text-black-bis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="column is-8-mobile is-4-tablet is-4-desktop">
+              <img
+                src="ressources/rentals-images/rental6.jpeg"
+                alt="image location appartement 6"
+              />
+              <p class="is-size-3 has-text-black-bis">Lorem, ipsum.</p>
+              <p class="has-text-black-bis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="column is-8-mobile is-4-tablet is-4-desktop">
+              <img
+                src="ressources/rentals-images/rental7.jpeg"
+                alt="image location appartement 7"
+              />
+              <p class="is-size-3 has-text-black-bis">Lorem, ipsum.</p>
+              <p class="has-text-black-bis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="column is-8-mobile is-4-tablet is-4-desktop">
+              <img
+                src="ressources/rentals-images/rental8.jpeg"
+                alt="image location appartement 8"
+              />
+              <p class="is-size-3 has-text-black-bis">Lorem, ipsum.</p>
+              <p class="has-text-black-bis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="column is-8-mobile is-4-tablet is-4-desktop">
+              <img
+                src="ressources/rentals-images/rental9.jpeg"
+                alt="image location appartement 9"
+              />
+              <p class="is-size-3 has-text-black-bis">Lorem, ipsum.</p>
+              <p class="has-text-black-bis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="column is-8-mobile is-4-tablet is-4-desktop">
+              <img
+                src="ressources/rentals-images/rental10.jpeg"
+                alt="image location appartement 10"
+              />
+              <p class="is-size-3 has-text-black-bis">Lorem, ipsum.</p>
+              <p class="has-text-black-bis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="column is-8-mobile is-4-tablet is-4-desktop">
+              <img
+                src="ressources/rentals-images/rental11.jpeg"
+                alt="image location appartement 11"
+              />
+              <p class="is-size-3 has-text-black-bis">Lorem, ipsum.</p>
+              <p class="has-text-black-bis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          </div>
+              <!-- Footer -->
+        <footer class="footer has-text-centered has-text-black-bis is-paddingless has-background-white mt-6">
+          <div class="content has-text-centered">
+            2021 &copy; All right reserved
+          </div>
+         
+        </footer>
         </div>
-        <div class="column is-8-mobile is-4-tablet is-4-desktop">
-          <img
-            src="ressources/rentals-images/rental2.jpeg"
-            alt="image location appartement 2"
-          />
-          <p class="is-size-3 has-text-black-bis">Lorem, ipsum.</p>
-          <p class="has-text-black-bis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="column is-8-mobile is-4-tablet is-4-desktop">
-          <img
-            src="ressources/rentals-images/rental3.jpeg"
-            alt="image location appartement 3"
-          />
-          <p class="is-size-3 has-text-black-bis">Lorem, ipsum.</p>
-          <p class="has-text-black-bis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="column is-8-mobile is-4-tablet is-4-desktop">
-          <img
-            src="ressources/rentals-images/rental4.jpeg"
-            alt="image location appartement 4"
-          />
-          <p class="is-size-3 has-text-black-bis">Lorem, ipsum.</p>
-          <p class="has-text-black-bis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="column is-8-mobile is-4-tablet is-4-desktop">
-          <img
-            src="ressources/rentals-images/rental5.jpeg"
-            alt="image location appartement 5"
-          />
-          <p class="is-size-3 has-text-black-bis">Lorem, ipsum.</p>
-          <p class="has-text-black-bis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="column is-8-mobile is-4-tablet is-4-desktop">
-          <img
-            src="ressources/rentals-images/rental6.jpeg"
-            alt="image location appartement 6"
-          />
-          <p class="is-size-3 has-text-black-bis">Lorem, ipsum.</p>
-          <p class="has-text-black-bis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="column is-8-mobile is-4-tablet is-4-desktop">
-          <img
-            src="ressources/rentals-images/rental7.jpeg"
-            alt="image location appartement 7"
-          />
-          <p class="is-size-3 has-text-black-bis">Lorem, ipsum.</p>
-          <p class="has-text-black-bis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="column is-8-mobile is-4-tablet is-4-desktop">
-          <img
-            src="ressources/rentals-images/rental8.jpeg"
-            alt="image location appartement 8"
-          />
-          <p class="is-size-3 has-text-black-bis">Lorem, ipsum.</p>
-          <p class="has-text-black-bis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="column is-8-mobile is-4-tablet is-4-desktop">
-          <img
-            src="ressources/rentals-images/rental9.jpeg"
-            alt="image location appartement 9"
-          />
-          <p class="is-size-3 has-text-black-bis">Lorem, ipsum.</p>
-          <p class="has-text-black-bis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="column is-8-mobile is-4-tablet is-4-desktop">
-          <img
-            src="ressources/rentals-images/rental10.jpeg"
-            alt="image location appartement 10"
-          />
-          <p class="is-size-3 has-text-black-bis">Lorem, ipsum.</p>
-          <p class="has-text-black-bis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="column is-8-mobile is-4-tablet is-4-desktop">
-          <img
-            src="ressources/rentals-images/rental11.jpeg"
-            alt="image location appartement 11"
-          />
-          <p class="is-size-3 has-text-black-bis">Lorem, ipsum.</p>
-          <p class="has-text-black-bis">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-      </div>
-          <!-- Footer -->
-    <footer class="footer has-text-centered has-text-black-bis is-paddingless has-background-white">
-      2021 &copy; All right reserved
-    </footer>
-    </div>
 
     <script src="app.js"></script>
   </body>
