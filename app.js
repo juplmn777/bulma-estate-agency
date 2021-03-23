@@ -1,8 +1,13 @@
-<nav class="navbar">
-      <div class="navbar-brand">
-        <a href="#" class="navbar-item">
-          <img src="ressources/aptParis.jpg" alt="logo Agency" />
-        </a>
-      </div>
-    </nav>
+const btnMenu = document.getElementById('nav-button');
+const menuContent = document.getElementById('menu-content');
 
+btnMenu.addEventListener('click', () => {
+  menuContent.classList.toggle('is-active');
+});
+
+const allNavLinks = document.querySelectorAll('.navbar-item');
+allNavLinks.forEach((navItem) => {
+  navItem.addEventListener('click', () => {
+    menuContent.classList.toggle('is-active');
+  });
+});
